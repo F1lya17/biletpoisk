@@ -1,0 +1,68 @@
+.home {
+    margin: 24px 0;
+    display: flex;
+}
+
+.filter {
+    position: sticky;
+    height: 64.5vh;
+    border-radius: 8px;
+    background: #FFF;
+    flex: 0 0 21.25%;
+    padding: 24px;
+    margin-right: 23px;
+    top: 110px;
+}
+
+.title{
+    color: var(--text-primary, #1B1F23);
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.filterName {
+    margin-bottom: 4px;
+    color: var(--text-primary, #1B1F23);
+    font-size: 14px;
+    font-family: SF Pro Text;
+    line-height: 20px;
+}
+
+.filterItem {
+    margin-bottom: 16px;
+}
+
+.films {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.dropdownBoldPhr {
+    color: var(--text-primary, #1B1F23);
+    font-size: 14px;
+    font-family: SF Pro Text;
+    line-height: 20px;
+}
+
+.dropdownPhr {
+    color: var(--text-tertiary, #999FA6);
+    font-size: 14px;
+    font-family: SF Pro Text;
+    line-height: 20px;
+}
+
+.dropdownBtn {
+    border-radius: 8px;
+    border: 1px solid var(--border-default, #E1E3E6);
+    background: var(--background-primary, #FFF);
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+}

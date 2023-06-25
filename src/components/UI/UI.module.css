@@ -1,0 +1,188 @@
+.myInp {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    width: 360px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E1E3E6;
+    border-radius: 8px;
+}
+
+.myInp:focus {
+    border: 1px solid #FF5500;
+}
+
+.myBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    background: #FF5500;
+    border-radius: 8px;
+    color: #FFF;
+}
+
+.myBtnWhite {
+    background-color: #fff;
+    color: #FF5500;
+    border: 1px solid var(--orange, #F50);
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.myBtnWhite:hover {
+    border: 1px solid var(--orange, #E94E00);
+    color: #E94E00;
+}
+
+.myBtn:hover {
+    background: #E94E00;
+}
+
+.countBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    background: #FF5500;
+    border-radius: 8px;
+    width: 20px;
+    height: 20px;
+    color: #FFF;
+}
+
+.countBtn:hover {
+    background: #E94E00;
+}
+
+.disabled {
+    background-color: #FFA375;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+.mySlct {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    width: 360px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E1E3E6;
+    border-radius: 8px;
+}
+
+.mySlct option {
+    font-family: 'SF Pro Text';
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #999FA6;
+}
+
+.TwoButtons {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 70px;
+}
+
+.count {
+    color: var(--text-primary, #1B1F23);
+    font-size: 20px;
+    font-family: SF Pro Text;
+    font-weight: 700;
+}
+
+.btnImg {
+    width: 12px;
+    height: 12px;
+}
+
+.dropdownBtn {
+    border-radius: 8px;
+    border: 1px solid var(--border-default, #E1E3E6);
+    background: var(--background-primary, #FFF);
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+}
+
+.dropdownPhr {
+    color: var(--text-tertiary, #999FA6);
+    font-size: 14px;
+    font-family: SF Pro Text;
+    line-height: 20px;
+}
+
+.dropdownBoldPhr {
+    color: var(--text-primary, #1B1F23);
+    font-size: 14px;
+    font-family: SF Pro Text;
+    line-height: 20px;
+}
+
+.roratedImg {
+    transform: translate(180deg);
+}
+
+.dropdownContent {
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--background-primary, #FFF);
+    position: absolute;
+    width: 340px;
+    z-index: 2;
+    box-shadow: 0px 10px 30px 2px rgba(0, 0, 0, 0.25);
+}
+
+.dropdownItem {
+    padding: 12px;
+    color: var(--text-primary, #1B1F23);
+    font-size: 14px;
+    font-family: SF Pro Text;
+    line-height: 20px;
+    cursor: pointer;
+    width: 93%;
+}
+
+.dropdownItem:hover {
+    background-color: #f5f5f5;
+}
+
+.modal_background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_card {
+    border-radius: 8px;
+    background: var(--white, #FFF);
+    padding: 24px;
+}

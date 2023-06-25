@@ -1,0 +1,71 @@
+.film {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 24px 0;
+}
+
+.filmCard {
+    border-radius: 8px;
+    background: #FFF;
+    display: flex;
+    gap: 32px;
+    padding: 24px;
+}
+
+.filmUpperInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: var(--text-primary, #1B1F23);
+    font-size: 32px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.itemInfo {
+    color: var(--text-primary, #1B1F23);
+    font-size: 20px;
+    font-family: Roboto;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.itemInfo span {
+    font-weight: 700;
+}
+
+.header {
+    color: var(--text-primary, #1B1F23);
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.description{
+    color: var(--text-primary, #1B1F23);
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 24px;
+}
+
+.imgContainer {
+    flex: 0 0 21%;
+    height: 26%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
